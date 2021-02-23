@@ -1,14 +1,20 @@
+
 *{
-    margin: 0px;
-    box-sizing: border-box;
-   }
-   
+ box-sizing: border-box;
+}
+
+span{
+    color:skyblue
+}
+
 h1{
-   font-size: 50px;
+    margin-bottom: 5px;
+   font-size: 40px;
  }
 
 
 h5, h4, h3, h2 {
+    margin: 0%;
    color:gray;
 }
 
@@ -24,43 +30,24 @@ h5, h4, h3, h2 {
 
 
 #logo {
-    width: 300px;
-    padding: 70px 10px 0px 70px;
+    width: 400px;
+    padding: 80px 10px 0px 200px;
 }
 
 
-.gallery{
-    margin-right: 10px;
-    height: 400px;
-    width: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    float: left;
-    max-width: 100%;
+.main-img{
+    margin-top: 10px;
+    width: 45%;
+    height: 330px;
 }
 
 
-#photo1{
-    padding: 60px;
-    background-image: url("img/tim-1.jpg");
-}
-
-#photo2{
-    background-image: url("img/tim-2.jpg");
+.wrapper{
+    width: 1100px;
+    margin:auto;
 }
 
 
-.container{
-    padding:20px 100px 100px 100px;
-}
-
-
-.content {
-    padding-bottom: 10px;
-    padding-top:10px ;
-    display: inline-block;
-    text-align: left;
-}
 
 .tabella {
     table-layout : fixed;
